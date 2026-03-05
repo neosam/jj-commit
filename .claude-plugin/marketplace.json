@@ -8,7 +8,10 @@
   "plugins": [
     {
       "name": "jj-commit",
-      "source": ".",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/neosam/jj-commit.git"
+      },
       "description": "Jujutsu (jj) version control integration for Claude Code. Commit, view history, and push using jj instead of git.",
       "version": "1.0.0",
       "author": {
