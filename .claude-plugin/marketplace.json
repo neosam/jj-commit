@@ -1,11 +1,9 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "neosam-plugins",
+  "description": "Claude Code plugins by neosam",
   "owner": {
     "name": "neosam"
-  },
-  "metadata": {
-    "description": "Claude Code plugins by neosam",
-    "version": "1.0.0"
   },
   "plugins": [
     {
@@ -16,9 +14,8 @@
       "author": {
         "name": "neosam"
       },
-      "repository": "https://github.com/neosam/jj-commit",
-      "license": "MIT",
-      "keywords": ["jujutsu", "jj", "vcs", "version-control"]
+      "homepage": "https://github.com/neosam/jj-commit",
+      "category": "productivity"
     }
   ]
 }
