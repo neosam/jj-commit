@@ -1,0 +1,24 @@
+{
+  "name": "neosam-plugins",
+  "owner": {
+    "name": "neosam"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by neosam",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jj-commit",
+      "source": ".",
+      "description": "Jujutsu (jj) version control integration for Claude Code. Commit, view history, and push using jj instead of git.",
+      "version": "1.0.0",
+      "author": {
+        "name": "neosam"
+      },
+      "repository": "https://github.com/neosam/jj-commit",
+      "license": "MIT",
+      "keywords": ["jujutsu", "jj", "vcs", "version-control"]
+    }
+  ]
+}
